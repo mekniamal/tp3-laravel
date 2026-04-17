@@ -126,6 +126,8 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
+    'charset' => env('APP_CHARSET', 'UTF-8'),
+
     /*
     |--------------------------------------------------------------------------
     | Maintenance Mode Driver
